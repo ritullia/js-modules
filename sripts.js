@@ -1,6 +1,6 @@
 
 import { numberSquare } from "./math.js"
-import { getNumbers } from "./multi.js"
+import getNumbers from "./multi.js"
 
 document.querySelector('button').addEventListener('click', () => {
     console.log('papsausta')
@@ -9,7 +9,7 @@ document.querySelector('button').addEventListener('click', () => {
 });
 
 
-let getNumber = getNumbers(2, 256)
+let getNumber = getNumbers(2, 8)
 console.log(getNumber)
 
 
