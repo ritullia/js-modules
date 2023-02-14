@@ -1,6 +1,6 @@
 export default function appHeader(app) {
-    app = document.createElement('header');
-    app.innerHTML = 'Cia header';
+
+    app.innerHTML = '<header>HEADER</header>';
     document.querySelector('body').append(app)
 
 }

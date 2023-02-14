@@ -9,7 +9,7 @@ document.querySelector('button').addEventListener('click', () => {
     alert(number)
 });
 
-appHeader()
+appHeader(document.body)
 let getNumber = getNumbers(2, 8)
 console.log(getNumber)
 
